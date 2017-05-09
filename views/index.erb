@@ -2,7 +2,14 @@
   <head></head>
   <body>
     <p>
-      The SECRET NUMBER is <%= rng %>
+      The SECRET NUMBER is between 0 and 100
+    </p>
+    <form>
+      <input type='text' name='guess' />
+      <input type='submit' value='Guess!' />
+    </form>
+    <p>
+      Your guess of <%= guess %> is <%= msg %>
     </p>
   </body>
 </html>
